@@ -5,6 +5,8 @@ header {
     right: 0;
     top: 0;
     z-index: 9999;
+    transition: all 0.3s linear;
+
     .header-bg {
         transition: all 0.3s linear;
         background-color: #fff;
@@ -16,10 +18,11 @@ header {
         .nav-link {
             color: #f38181 !important;
         }
-        .navbar-toggler{
+        .navbar-toggler {
             span {
                 background: #f38181;
-                &:before, &:after {
+                &:before,
+                &:after {
                     background: #f38181;
                 }
             }
@@ -33,11 +36,11 @@ header {
 
         .navbar-toggler {
             display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  background-color: none;
-  outline: none;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            background-color: none;
+            outline: none;
             &:focus {
                 outline: none !important;
                 box-shadow: none;
@@ -48,41 +51,42 @@ header {
                 width: 30px;
                 height: 3px;
                 background: #fff;
-                transition: all .2s ease-in-out;
-                
-                &:before, &:after {
-                  position: absolute;
-                  background: #fff;
-                  content: '';
-                  width: 30px;
-                  height: 3px;
-                  left: 0;
-                  right: 0;
-                  transition: all .2s ease-in-out;
-                }
-                
-                &:before {
-                  top: -8px;
-                }
-                
+                transition: all 0.2s ease-in-out;
+
+                &:before,
                 &:after {
-                  top: 8px;
+                    position: absolute;
+                    background: #fff;
+                    content: "";
+                    width: 30px;
+                    height: 3px;
+                    left: 0;
+                    right: 0;
+                    transition: all 0.2s ease-in-out;
                 }
-              }
+
+                &:before {
+                    top: -8px;
+                }
+
+                &:after {
+                    top: 8px;
+                }
             }
-            
-            .navbar-toggler.active {
-              span {
-                background: transparent;  
-                
+        }
+
+        .navbar-toggler.active {
+            span {
+                background: transparent;
+
                 &:before {
-                  transform: rotate(45deg) translate(5px, 6px);
+                    transform: rotate(45deg) translate(5px, 6px);
                 }
-                
+
                 &:after {
-                  transform: rotate(-45deg) translate(5px, -6px);
+                    transform: rotate(-45deg) translate(5px, -6px);
                 }
-              }
+            }
         }
         .navbar-brand {
             font-family: "Montserrat", sans-serif;
@@ -146,6 +150,27 @@ header {
                 padding: 0;
                 .nav-item {
                     margin-right: 0px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .header-responsive-bg {
+        background-color: #fff;
+        transition: all 0.3s linear;
+        .navbar-brand {
+            color: #f38181;
+        }
+        .nav-link {
+            color: #f38181 !important;
+        }
+        .navbar-toggler {
+            span {
+                background: #f38181;
+                &:before,
+                &:after {
+                    background: #f38181;
                 }
             }
         }
