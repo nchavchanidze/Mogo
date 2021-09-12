@@ -1,0 +1,157 @@
+#footer {
+    background-color: #f8f8f8;
+    .map {
+        padding: 58px 0;
+        background-image: url(../image/Footer/map-background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .map-wrapper {
+            text-align: center;
+            i {
+                font-size: 30px;
+                color: #f38181;
+            }
+            p {
+                font-family: "Montserrat", sans-serif;
+                font-size: 30px;
+                color: #f38181;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-top: 18px;
+            }
+            .divider {
+                width: 60px;
+                height: 3px;
+                background-color: #f38181;
+                margin: 22px auto 0px;
+            }
+        }
+    }
+    .footer-wrapper {
+        margin-top: 75px;
+        padding-bottom: 70px;
+        border-bottom: 1px solid #e5e5e5;
+
+        .footer-about {
+            h1 {
+                font-family: "Montserrat", sans-serif;
+                font-size: 46px;
+                color: #cccccc;
+                font-weight: 700;
+            }
+            .footer-about-p {
+                font-family: "Roboto", sans-serif;
+                font-size: 15px;
+                color: #999999;
+                font-weight: 400;
+                margin-top: 45px;
+                line-height: 1.6;
+            }
+            .footer-about-followers {
+                font-family: "Montserrat", sans-serif;
+                font-size: 14px;
+                color: #000;
+                font-weight: 400;
+                margin-top: 40px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid #e5e5e5;
+                span {
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 18px;
+                    color: #000;
+                    font-weight: 700;
+                }
+            }
+            .socials-wrapper {
+                margin-top: 20px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: wrap;
+                p {
+                    margin-right: 25px;
+                    font-family: "Roboto", sans-serif;
+                    font-size: 15px;
+                    color: #999999;
+                    font-weight: 300;
+                    font-style: italic;
+                }
+                .socials {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 18px;
+                    i {
+                        color: #95e1d3;
+                        font-size: 15px;
+                    }
+                    @media only screen and (max-width: 360px) {
+                        margin-top: 1.5rem;
+                    }
+                }
+            }
+            .subscribe-input {
+                margin-top: 40px;
+                form {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    flex-wrap: wrap;
+
+                    input {
+                        padding: 14px;
+                        width: 230px;
+                        height: 40px;
+                        border: 1px solid #e5e5e5;
+                        &:focus-visible {
+                            outline: none !important;
+                        }
+                        &::-webkit-input-placeholder {
+                            font-family: "Roboto", sans-serif;
+                            font-size: 15px;
+                            color: #cccccc;
+                            font-weight: 300;
+                            font-style: italic;
+                        }
+                        @media only screen and (max-width: 565px) {
+                            width: 100% !important;
+                        }
+                    }
+                    button {
+                        padding: 0 33px;
+                        height: 40px;
+                        text-align: center;
+                        border: none;
+                        background-color: #95e1d3;
+                        color: #fff;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 14px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        @media only screen and (max-width: 565px) {
+                            width: 100% !important;
+                            margin-top: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0;
+        p {
+            font-family: "Montserrat", sans-serif;
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: #333;
+        }
+    }
+}
