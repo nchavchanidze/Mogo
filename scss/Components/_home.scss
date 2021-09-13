@@ -21,7 +21,7 @@
         p {
             font-family: "Kaushan Script";
             font-size: 72px;
-            color: #fff;
+            color: $color01;
             margin-bottom: 41px;
             
 
@@ -31,28 +31,28 @@
             font-weight: 700;
             font-size: 150px;
             text-transform: uppercase;
-            color: #fff;
+            color: $color01;
         }
         .divider {
             width: 60px;
             height: 3px;
-            background-color: #fff;
+            background-color: $color01;
             margin: 71px auto 50px;
 
         }
         button {
             background-color: transparent;
-            border: 3px solid #fff;
+            border: 3px solid $color01;
             padding: 15px 30px;
-            color: #fff;
+            color: $color01;
             font-family: "Montserrat", sans-serif;
             font-weight: 700;
             font-size: 14px;
             text-transform: uppercase;
             transition: all 0.3s linear;
             &:hover {
-                background-color: #fff;
-                color: #fce38b;
+                background-color: $color01;
+                color: $color02;
                 transition: all 0.3s linear;
                 border-radius: 36px;
             }

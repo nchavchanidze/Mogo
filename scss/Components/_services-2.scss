@@ -13,18 +13,18 @@
             font-weight: 700;
             font-size: 30px;
             text-transform: uppercase;
-            color: #000;
+            color: $color05;
         }
         .divider {
             width: 60px;
             height: 3px;
-            background-color: #f38181;
+            background-color: $color03;
             margin: 41px auto 47px;
         }
         .services-p {
             font-family: "Roboto", sans-serif;
             font-size: 15px;
-            color: #999999;
+            color: $color06;
             margin-bottom: 105px;
             line-height: 1.6;
         }
@@ -45,7 +45,7 @@
     }
     .dropdown {
         background-color: transparent !important;
-        border: 1px solid #e5e5e5;
+        border: 1px solid $color09;
         padding: 15px 0;
         .fa-chevron-up {
             padding-right: 15px;
@@ -83,7 +83,7 @@
                 }
             }
             i {
-                color: #e5e5e5;
+                color: $color09;
                 font-size: 14px;
             }
         }
@@ -94,7 +94,7 @@
         }
         .dropdown-menu {
             border: none;
-            border-top: 1px solid #e5e5e5;
+            border-top: 1px solid $color09;
             border-radius: 0;
             margin-top: 15px !important;
             padding: 15px 15px 0;
@@ -102,7 +102,7 @@
             overflow-y: scroll;
             transition: all .3s;
             p {
-                color: #999999;
+                color: $color06;
                 font-family: "Roboto", sans-serif;
                 font-weight: 300;
                 font-style: italic;

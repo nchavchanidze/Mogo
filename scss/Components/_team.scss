@@ -13,18 +13,18 @@
             font-weight: 700;
             font-size: 30px;
             text-transform: uppercase;
-            color: #000;
+            color: $color05;
         }
         .divider {
             width: 60px;
             height: 3px;
-            background-color: #f38181;
+            background-color: $color03;
             margin: 41px auto 47px;
         }
         .team-p {
             font-family: "Roboto", sans-serif;
             font-size: 15px;
-            color: #999999;
+            color: $color06;
             margin-bottom: 105px;
             line-height: 1.6;
         }
@@ -47,14 +47,14 @@
                 font-weight: 700;
                 font-size: 14px;
                 text-transform: uppercase;
-                color: #333333;
+                color: $color07;
             }
             p {
                 font-family: "Roboto", sans-serif;
                 font-weight: 300;
                 font-style: italic;
                 font-size: 15px;
-                color: #999999;
+                color: $color06;
             }
         }
         .team-image {
@@ -62,7 +62,7 @@
             width: 100%;
             transition: all 0.2s linear;
             &:hover {
-                background-color: #95e1d3;
+                background-color: $color04;
                 img {
                     transform: translate(-10px, -10px);
                     transition: all 0.2s linear;
@@ -103,12 +103,12 @@
 
                     i {
                         background-color: #fce38a;
-                        color: #f38181;
+                        color: $color03;
                         padding: 25px;
                         font-size: 26px;
                         &:hover {
                             color: #fff;
-                            background-color:#f38181;
+                            background-color: $color03;
                             cursor: pointer;
                         }
                     }
@@ -130,11 +130,10 @@
         }
     }
     .team-brands {
-        background-color: #f8f8f8;
-       padding: 72px 0;
+        background-color: $color08;
+        padding: 72px 0;
         img {
             width: 100%;
         }
-       
     }
 }

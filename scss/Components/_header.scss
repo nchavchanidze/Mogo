@@ -9,21 +9,21 @@ header {
 
     .header-bg {
         transition: all 0.3s linear;
-        background-color: #fff;
+        background-color: $color01;
         padding-top: 10px !important;
         padding-bottom: 10px !important;
         .navbar-brand {
-            color: #f38181;
+            color: $color03;
         }
         .nav-link {
-            color: #f38181 !important;
+            color: $color03 !important;
         }
         .navbar-toggler {
             span {
-                background: #f38181;
+                background: $color03;
                 &:before,
                 &:after {
-                    background: #f38181;
+                    background: $color03;
                 }
             }
         }
@@ -50,13 +50,13 @@ header {
                 display: block;
                 width: 30px;
                 height: 3px;
-                background: #fff;
+                background: $color01;
                 transition: all 0.2s ease-in-out;
 
                 &:before,
                 &:after {
                     position: absolute;
-                    background: #fff;
+                    background: $color01;
                     content: "";
                     width: 30px;
                     height: 3px;
@@ -91,7 +91,7 @@ header {
         .navbar-brand {
             font-family: "Montserrat", sans-serif;
             font-weight: 700;
-            color: #fff;
+            color: $color01;
             font-size: 30px;
         }
         .navbar-collapse {
@@ -107,7 +107,7 @@ header {
                 .nav-link {
                     font-family: "Montserrat", sans-serif;
                     font-weight: 400;
-                    color: #fff;
+                    color: $color01;
                     font-size: 14px;
                     text-transform: uppercase;
                     padding: 0;
@@ -120,7 +120,7 @@ header {
                             content: "";
                             height: 3px;
                             width: 100%;
-                            background-color: #fce38a;
+                            background-color: $color02;
                             position: absolute;
                             bottom: -12px;
                             transition: all 0.3s linear;
@@ -157,20 +157,20 @@ header {
 }
 @media only screen and (max-width: 768px) {
     .header-responsive-bg {
-        background-color: #fff;
+        background-color: $color01;
         transition: all 0.3s linear;
         .navbar-brand {
-            color: #f38181;
+            color: $color03;
         }
         .nav-link {
-            color: #f38181 !important;
+            color: $color03 !important;
         }
         .navbar-toggler {
             span {
-                background: #f38181;
+                background: $color03;
                 &:before,
                 &:after {
-                    background: #f38181;
+                    background: $color03;
                 }
             }
         }
